@@ -37,4 +37,3 @@ class Animal:
 # print(dir(animal))
 # print(animal.get_name())
 # print(animal)
-# print(animal.walk(4))

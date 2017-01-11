@@ -8,3 +8,8 @@ print(animal.speed)
 print(dir(animal))
 print(animal.get_name())
 print(animal)
+dog = Dog("Ray")
+dog.legs = 4
+dog.walk()
+print(dog.speed)
+print(dog)

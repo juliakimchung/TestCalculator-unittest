@@ -2,10 +2,10 @@ import unittest
 from animals import*
 
 def setUpModule():
-	print("set up module for animal.py")
+	print("set up module for TestAnimal.py")
 
 def tearDownModule():
-	print("tear down module for animal.py")
+	print("tear down module for TestAnimal.py")
 
 
 class testAnimal(unittest.TestCase):
@@ -17,8 +17,6 @@ class testAnimal(unittest.TestCase):
 	def tearDownClass(self):
 		print("tear down class")
 
-
- 	
 	def test_AnimalMustHaveNameProperty(self):
 
 		self.animal = Animal("Happy","Dog")
